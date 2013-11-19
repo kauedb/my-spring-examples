@@ -1,0 +1,5 @@
+/home/kauedb/Projects/github/kauedb/my-spring-examples/spring-jpa/src/test/java/kauedb/spring/examples/itest/BaseIT.java
+/home/kauedb/Projects/github/kauedb/my-spring-examples/spring-jpa/src/test/java/kauedb/spring/examples/itest/ITInitializer.java
+/home/kauedb/Projects/github/kauedb/my-spring-examples/spring-jpa/src/test/java/kauedb/spring/examples/repository/CostumerRepositoryIT.java
+/home/kauedb/Projects/github/kauedb/my-spring-examples/spring-jpa/src/test/java/kauedb/spring/examples/config/ITConfig.java
+/home/kauedb/Projects/github/kauedb/my-spring-examples/spring-jpa/src/test/java/kauedb/spring/examples/repository/AccountRepositoryIT.java

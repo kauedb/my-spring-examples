@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-spring-examples.iml" filepath="$PROJECT_DIR$/my-spring-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-amqp/spring-amqp.iml" filepath="$PROJECT_DIR$/spring-amqp/spring-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-batch/spring-batch.iml" filepath="$PROJECT_DIR$/spring-batch/spring-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-jpa/spring-jpa.iml" filepath="$PROJECT_DIR$/spring-jpa/spring-jpa.iml" />
+    </modules>
+  </component>
+</project>
+

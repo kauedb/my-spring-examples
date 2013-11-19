@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="integration-test" verbose="2">
+
+    <test name="repositoryTest">
+        <classes>
+            <class name="kauedb.spring.examples.batch.BatchIT"/>
+        </classes>
+    </test>
+
+</suite>

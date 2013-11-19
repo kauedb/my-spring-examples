@@ -1,0 +1,10 @@
+kauedb/spring/examples/service/CostumerServiceImpl.class
+kauedb/spring/examples/service/CustomerService.class
+kauedb/spring/examples/entity/QCostumer.class
+kauedb/spring/examples/config/JndiConfig.class
+kauedb/spring/examples/repository/CostumerRepository.class
+kauedb/spring/examples/entity/QAccount.class
+kauedb/spring/examples/entity/Account.class
+kauedb/spring/examples/entity/Costumer.class
+kauedb/spring/examples/repository/AccountRepository.class
+kauedb/spring/examples/config/AppConfig.class
