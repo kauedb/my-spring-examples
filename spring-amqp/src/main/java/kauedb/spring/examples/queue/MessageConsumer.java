@@ -15,6 +15,12 @@ public class MessageConsumer {
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageConsumer.class);
 
     public void listen(String message){
+
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         LOGGER.info(message);
     }
 

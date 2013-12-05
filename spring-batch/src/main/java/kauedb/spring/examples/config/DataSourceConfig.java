@@ -13,7 +13,7 @@ import javax.sql.DataSource;
  */
 @Configuration
 @Profile("production")
-public class JndiConfig {
+public class DataSourceConfig {
 
     @Bean
     public DataSource dataSource() {

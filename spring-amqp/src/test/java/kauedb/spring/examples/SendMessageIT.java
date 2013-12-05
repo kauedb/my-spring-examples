@@ -20,8 +20,9 @@ public class SendMessageIT extends BaseIT {
     @DataProvider(name = "bigMessageDataProvider")
     public Object[][] dataProvider() {
         final StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < 100000; i++) {
-            stringBuilder.append("AbC-1");
+        int mega = 1000 * 1000;
+        for (int i = 0; i < mega; i++) {
+            stringBuilder.append("X");
         }
         return new Object[][]{
                 {
@@ -30,22 +31,23 @@ public class SendMessageIT extends BaseIT {
         };
     }
 
-    @Test(invocationCount = 10000)
-    public void test() {
+    @Test(invocationCount = 10000, singleThreaded = false)
+    public void smallMessage() {
 
         rabbitTemplate.convertAndSend("myExchange", "kauedb.spring.examples.queue", "hello rabbit");
     }
 
-    @Test(invocationCount = 10, dataProvider = "bigMessageDataProvider")
-    public void test2(String bigMessage) {
+    @Test(invocationCount = 100, dataProvider = "bigMessageDataProvider")
+    public void bigMessage(String bigMessage) {
 
         rabbitTemplate.convertAndSend("myExchange", "kauedb.spring.examples.queue", bigMessage);
     }
 
+
     @Test
-    public void test3(){
+    public void testMessageListener(){
         try {
-            Thread.sleep(5000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

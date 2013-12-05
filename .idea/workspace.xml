@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d93a9cf-8b19-44a1-aa24-df80384a04ef" name="Default" comment="" />
+    <list default="true" id="5d93a9cf-8b19-44a1-aa24-df80384a04ef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-solr/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/JndiConfig.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/JndiConfig.java" afterPath="$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/AppConfig.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-amqp/src/main/java/kauedb/spring/examples/queue/MessageConsumer.java" afterPath="$PROJECT_DIR$/spring-amqp/src/main/java/kauedb/spring/examples/queue/MessageConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-amqp/src/test/java/kauedb/spring/examples/SendMessageIT.java" afterPath="$PROJECT_DIR$/spring-amqp/src/test/java/kauedb/spring/examples/SendMessageIT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/kauedb.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/kauedb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-spring-examples.iml" afterPath="$PROJECT_DIR$/my-spring-examples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-jpa/pom.xml" afterPath="$PROJECT_DIR$/spring-jpa/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-amqp/spring-amqp.iml" afterPath="$PROJECT_DIR$/spring-amqp/spring-amqp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/spring-batch.iml" afterPath="$PROJECT_DIR$/spring-batch/spring-batch.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-jpa/spring-jpa.iml" afterPath="$PROJECT_DIR$/spring-jpa/spring-jpa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="my-spring-examples.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384767671711" ignored="false" />
+    <file path="/pom.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1386241860061" ignored="false" />
     <file path="/File Header.txt.ft" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384536391681" ignored="false" />
     <file path="$PROJECT_DIR$/../spring-play/pom.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384536576307" ignored="false" />
-    <file path="/AppConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384711537055" ignored="false" />
+    <file path="/AppConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385980306900" ignored="false" />
     <file path="/ITConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384713634944" ignored="false" />
     <file path="/JNDIConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384538224334" ignored="false" />
     <file path="/ITInitializer.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384540814189" ignored="false" />
@@ -18,21 +37,30 @@
     <file path="/CostumerRepository.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384764969039" ignored="false" />
     <file path="/CostumerRepositoryIT.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384767456204" ignored="false" />
     <file path="/CostumerServiceImpl.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384599516519" ignored="false" />
-    <file path="/fragment.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384708004796" ignored="false" />
+    <file path="/fragment.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385205988354" ignored="false" />
     <file path="/Account.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384603124454" ignored="false" />
     <file path="/itestng.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384646680176" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384857068446" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385978544436" ignored="false" />
     <file path="/AccountRepository.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384602325670" ignored="false" />
     <file path="/AccountRepositoryIT.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384602943360" ignored="false" />
     <file path="/queue.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384612978291" ignored="false" />
-    <file path="/MessageConsumer.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384620570444" ignored="false" />
-    <file path="/SendMessageIT.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384623455295" ignored="false" />
+    <file path="/MessageConsumer.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385815768698" ignored="false" />
+    <file path="/SendMessageIT.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385816974900" ignored="false" />
     <file path="/BatchIT.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384712278033" ignored="false" />
     <file path="/MyTasklet.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384709773202" ignored="false" />
     <file path="/MyItemReader.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384707013667" ignored="false" />
     <file path="/MyItemProcessor.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384709877533" ignored="false" />
     <file path="/MyItemWriter.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384709763491" ignored="false" />
     <file path="/EmailItemProcessor.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384717512006" ignored="false" />
+    <file path="/dummy.vm" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1384959307379" ignored="false" />
+    <file path="/solr.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385118806386" ignored="false" />
+    <file path="/web.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385203952892" ignored="false" />
+    <file path="/MvcConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385203727014" ignored="false" />
+    <file path="$PROJECT_DIR$/../../pkainulainen/maven-examples/running-solr-with-maven/pom.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385203325294" ignored="false" />
+    <file path="/HelloController.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385203689252" ignored="false" />
+    <file path="/spring-mvc-servlet.xml" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385204834117" ignored="false" />
+    <file path="/a.dummy" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1385205565337" ignored="false" />
+    <file path="/DataSourceConfig.java" changelist="5d93a9cf-8b19-44a1-aa24-df80384a04ef" time="1386242268044" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,24 +111,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/spring-amqp/src/main/java/kauedb/spring/examples/queue/MessageConsumer.java" line="17" class="kauedb.spring.examples.queue.MessageConsumer" package="kauedb.spring.examples.queue">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -110,37 +122,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CostumerRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/repository/CostumerRepository.java">
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="82" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+            <state line="34" column="53" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.61864406">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryDslPredicateExecutor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE-sources.jar!/org/springframework/data/querydsl/QueryDslPredicateExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="16" selection-start="1979" selection-end="1979" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CostumerRepositoryIT.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-jpa/src/test/java/kauedb/spring/examples/repository/CostumerRepositoryIT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="18" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-jpa/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="54" selection-start="3157" selection-end="3157" vertical-scroll-proportion="0.26443204">
+            <state line="26" column="40" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,22 +158,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-batch/src/test/resources/data.sql" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/dto/Costumer.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/batch/MyItemWriter.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/batch/MyTasklet.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/batch/MyItemProcessor.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/test/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/spring-batch/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-batch/src/test/java/kauedb/spring/examples/config/ITConfig.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/test/java/itest/ITInitializer.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/test/java/itest/BaseIT.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/test/java/kauedb/spring/examples/batch/BatchIT.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/batch/EmailItemProcessor.java" />
+        <option value="$PROJECT_DIR$/solr/pom.xml" />
+        <option value="$PROJECT_DIR$/solr/src/main/resources/log4.properties" />
+        <option value="$PROJECT_DIR$/solr/src/main/resources/solr.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/java/kauedb/spring/examples/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/java/kauedb/spring/examples/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/spring-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-amqp/src/main/java/kauedb/spring/examples/queue/MessageConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-amqp/src/test/java/kauedb/spring/examples/SendMessageIT.java" />
+        <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/repository/CostumerRepository.java" />
-        <option value="$PROJECT_DIR$/spring-jpa/src/test/java/kauedb/spring/examples/repository/CostumerRepositoryIT.java" />
         <option value="$PROJECT_DIR$/spring-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java" />
       </list>
     </option>
   </component>
@@ -198,7 +192,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="spring-jpa" />
+          <option name="myItemId" value="spring-solr" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -208,7 +202,31 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="spring-jpa" />
+          <option name="myItemId" value="spring-mvc" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-mvc" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-mvc" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -228,11 +246,48 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="spring-ear" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-ear" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="my-spring-examples" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Profiles" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="ENABLED" value="false" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
@@ -268,7 +323,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -287,6 +342,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,112 +393,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -493,40 +443,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,117 +524,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-amqp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-amqp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-amqp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-amqp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-amqp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="spring-batch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -729,14 +540,15 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.intentionPowerPack" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-play" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -744,14 +556,24 @@
       <recent name="itest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solr/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-solr/src/main/config" />
       <recent name="$PROJECT_DIR$/spring-batch/src/test/resources" />
       <recent name="$PROJECT_DIR$/spring-batch/src/test/java/itest" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kauedb.spring.examples.service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solr/src/main/config" />
+      <recent name="$PROJECT_DIR$/solr/src/main" />
+      <recent name="$PROJECT_DIR$/solr" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.CostumerRepositoryIT.queryDsl">
+  <component name="RestClientSettings">
+    <option name="LAST_HOST" value="http://127.0.0.1:8080/my-spring-mvc" />
+  </component>
+  <component name="RunManager" selected="TestNG.SendMessageIT.bigMessage">
     <configuration default="false" name="SendMessageIT.test" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -793,117 +615,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SendMessageIT.test2" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kauedb.spring.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-amqp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="kauedb.spring.examples" />
-      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.SendMessageIT" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SendMessageIT.test3" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kauedb.spring.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-amqp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="kauedb.spring.examples" />
-      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.SendMessageIT" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BatchIT.test" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kauedb.spring.examples.batch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-batch" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="kauedb.spring.examples.batch" />
-      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.batch.BatchIT" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="40193" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="CostumerRepositoryIT.queryDsl" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -918,6 +629,111 @@
       <option name="PACKAGE_NAME" value="kauedb.spring.examples.repository" />
       <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.repository.CostumerRepositoryIT" />
       <option name="METHOD_NAME" value="queryDsl" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SendMessageIT.bigMessage" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kauedb.spring.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-amqp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="kauedb.spring.examples" />
+      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.SendMessageIT" />
+      <option name="METHOD_NAME" value="bigMessage" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SendMessageIT.testMessageListener" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kauedb.spring.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-amqp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="kauedb.spring.examples" />
+      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.SendMessageIT" />
+      <option name="METHOD_NAME" value="testMessageListener" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SendMessageIT.smallMessage" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kauedb.spring.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-amqp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="kauedb.spring.examples" />
+      <option name="MAIN_CLASS_NAME" value="kauedb.spring.examples.SendMessageIT" />
+      <option name="METHOD_NAME" value="smallMessage" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -975,6 +791,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1001,19 +830,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1050,6 +866,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="spring-jpa [org.apache.maven.plugins:maven-failsafe-plugin:2.13:integration-test]" type="MavenRunConfiguration" factoryName="Maven">
@@ -1110,18 +933,18 @@
       <item index="0" class="java.lang.String" itemvalue="Maven.spring-jpa [org.apache.maven.plugins:maven-failsafe-plugin:2.13:integration-test]" />
       <item index="1" class="java.lang.String" itemvalue="Maven.spring-jpa [org.apache.maven.plugins:maven-failsafe-plugin:2.13:verify]" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test2" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test3" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.BatchIT.test" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.CostumerRepositoryIT.queryDsl" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CostumerRepositoryIT.queryDsl" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SendMessageIT.bigMessage" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.SendMessageIT.testMessageListener" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.SendMessageIT.smallMessage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CostumerRepositoryIT.queryDsl" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.BatchIT.test" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test3" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test2" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SendMessageIT.bigMessage" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SendMessageIT.smallMessage" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SendMessageIT.testMessageListener" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SendMessageIT.test" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CostumerRepositoryIT.queryDsl" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1161,27 +984,30 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3250444" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39964476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4048" sideWeight="0.3681275" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17214398" sideWeight="0.6980462" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27250996" sideWeight="0.4582593" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31633466" sideWeight="0.6980462" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3010204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30199203" sideWeight="0.6749556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54174066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6544" sideWeight="0.63187253" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1251,92 +1077,147 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/java/kauedb/spring/examples/config/ITConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/2.2.0.RELEASE/spring-batch-core-2.2.0.RELEASE-sources.jar!/org/springframework/batch/core/configuration/annotation/JobBuilderFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="912" selection-end="912" vertical-scroll-proportion="0.83928573" />
+        <state line="26" column="13" selection-start="963" selection-end="963" vertical-scroll-proportion="0.3148855">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/JndiConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/JdbcPagingItemReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.47277936" />
+        <state line="174" column="41" selection-start="5837" selection-end="5837" vertical-scroll-proportion="0.5601173">
+          <folding>
+            <element signature="e#0#11044#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3092#3121#0" expanded="false" />
+            <element signature="e#4542#4571#0" expanded="false" />
+            <element signature="e#5978#6008#0" expanded="false" />
+            <element signature="e#7688#7718#0" expanded="false" />
+            <element signature="e#8059#8103#0" expanded="false" />
+            <element signature="e#8556#8695#0" expanded="false" />
+            <element signature="e#8689#8690#0" expanded="false" />
+            <element signature="e#9293#9309#0" expanded="false" />
+            <element signature="e#9845#9861#0" expanded="false" />
+            <element signature="e#9959#9967#0" expanded="false" />
+            <element signature="e#10120#10146#0" expanded="false" />
+            <element signature="e#10484#10513#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/java/itest/ITInitializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/PagingQueryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="415" selection-end="415" vertical-scroll-proportion="0.625" />
+        <state line="46" column="11" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.521875">
+          <folding>
+            <element signature="e#0#3015#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/java/itest/BaseIT.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/support/H2PagingQueryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="450" selection-end="450" vertical-scroll-proportion="0.6666667" />
+        <state line="28" column="41" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.56875">
+          <folding>
+            <element signature="e#0#1738#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/java/kauedb/spring/examples/batch/BatchIT.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/support/SqlPagingQueryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" />
+        <state line="98" column="58" selection-start="3545" selection-end="3545" vertical-scroll-proportion="0.521875">
+          <folding>
+            <element signature="e#0#12623#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10467#10492#0" expanded="false" />
+            <element signature="e#10567#10575#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/support/AbstractSqlPagingQueryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="22" selection-start="3319" selection-end="3319" vertical-scroll-proportion="0.5653495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/2.2.0.RELEASE/spring-batch-infrastructure-2.2.0.RELEASE-sources.jar!/org/springframework/batch/item/database/support/SqlPagingQueryProviderFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="37" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.4915254">
+          <folding>
+            <element signature="e#0#5871#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2124#2153#0" expanded="false" />
+            <element signature="e#2533#2579#0" expanded="false" />
+            <element signature="e#4356#4371#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="113" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.25297618" />
+        <state line="61" column="22" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2163#2173#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/main/java/kauedb/spring/examples/batch/EmailItemProcessor.java">
+    <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/entity/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/resources/schema-h2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-batch/src/test/resources/schema-oracle10g.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-jpa/src/test/java/kauedb/spring/examples/repository/AccountRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="758" selection-end="758" vertical-scroll-proportion="0.3982808">
+        <state line="19" column="20" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/repository/CostumerRepository.java">
+    <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/entity/Costumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="82" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="36" column="4" selection-start="743" selection-end="743" vertical-scroll-proportion="0.8468468">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE.jar!/org/springframework/data/querydsl/QueryDslPredicateExecutor.class">
+    <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE-sources.jar!/org/springframework/data/querydsl/QueryDslPredicateExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="16" selection-start="1979" selection-end="1979" vertical-scroll-proportion="0.0">
+        <state line="27" column="13" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-jpa/src/test/java/kauedb/spring/examples/repository/CostumerRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="18" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/mysema/querydsl/querydsl-jpa/2.7.2/querydsl-jpa-2.7.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="21" selection-start="5073" selection-end="5073" vertical-scroll-proportion="0.94035786" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-jpa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="54" selection-start="3157" selection-end="3157" vertical-scroll-proportion="0.26443204">
+        <state line="26" column="40" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar!/com/jolbox/bonecp/BoneCPConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="16" selection-start="4837" selection-end="4837" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.6.0_45/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="16" selection-start="9478" selection-end="9478" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar!/com/jolbox/bonecp/BoneCPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="416" column="0" selection-start="15899" selection-end="15899" vertical-scroll-proportion="0.3079179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-jpa/src/main/java/kauedb/spring/examples/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="53" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.61864406">
           <folding />
         </state>
       </provider>

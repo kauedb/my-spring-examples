@@ -12,6 +12,9 @@
         <module>spring-jpa</module>
         <module>spring-amqp</module>
         <module>spring-batch</module>
+        <module>spring-solr</module>
+        <module>spring-ear</module>
+        <module>spring-mvc</module>
     </modules>
 
     <profiles>
@@ -120,6 +123,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>

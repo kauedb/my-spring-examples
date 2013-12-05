@@ -9,6 +9,10 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.database.JdbcCursorItemReader;
+import org.springframework.batch.item.database.JdbcPagingItemReader;
+import org.springframework.batch.item.database.PagingQueryProvider;
+import org.springframework.batch.item.database.support.H2PagingQueryProvider;
+import org.springframework.batch.item.database.support.SqlPagingQueryProviderFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -49,8 +53,19 @@ public class AppConfig {
 
     @Bean
     public ItemReader<Costumer> costumerItemReader() {
-        final JdbcCursorItemReader<Costumer> itemReader = new JdbcCursorItemReader<Costumer>();
-        itemReader.setSql("SELECT ID_COSTUMER as id, FIRST_NAME as firstName, LAST_NAME as lastName FROM COSTUMER");
+        final JdbcPagingItemReader<Costumer> itemReader = new JdbcPagingItemReader<Costumer>();
+        SqlPagingQueryProviderFactoryBean sqlPagingQueryProviderFactoryBean = new SqlPagingQueryProviderFactoryBean();
+        sqlPagingQueryProviderFactoryBean.setFromClause("COSTUMER");
+        sqlPagingQueryProviderFactoryBean.setSelectClause("ID_COSTUMER as id, FIRST_NAME as firstName, LAST_NAME as lastName");
+
+        try {
+            itemReader.setQueryProvider(sqlPagingQueryProviderFactoryBean.getObjectType().cast(sqlPagingQueryProviderFactoryBean.getObject()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+//        final JdbcCursorItemReader<Costumer> itemReader = new JdbcCursorItemReader<Costumer>();
+//        itemReader.setSql("SELECT ID_COSTUMER as id, FIRST_NAME as firstName, LAST_NAME as lastName FROM COSTUMER");
         itemReader.setDataSource(dataSource);
         itemReader.setRowMapper(new BeanPropertyRowMapper<Costumer>(Costumer.class));
         return itemReader;
