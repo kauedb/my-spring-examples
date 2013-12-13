@@ -15,6 +15,7 @@
         <module>spring-solr</module>
         <module>spring-ear</module>
         <module>spring-mvc</module>
+        <module>spring-perf4j</module>
     </modules>
 
     <profiles>
@@ -31,6 +32,13 @@
                 <guava.version>11.0.2</guava.version>
                 <logback.version>1.0.7</logback.version>
                 <slf4.version>1.7.4</slf4.version>
+                <jetty.version>8.1.13.v20130916</jetty.version>
+                <jetty.contextPath>/</jetty.contextPath>
+                <jetty.host>127.0.0.1</jetty.host>
+                <jetty.port>8080</jetty.port>
+                <jetty.stopPort>9955</jetty.stopPort>
+                <jetty.stopKey>stop</jetty.stopKey>
+                <jetty.maxIdleTime>60000</jetty.maxIdleTime>
             </properties>
         </profile>
     </profiles>
@@ -57,8 +65,31 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+        <pluginManagement>
+            <plugins>
 
+                <plugin>
+                    <groupId>org.mortbay.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>${jetty.version}</version>
+                    <configuration>
+                        <stopPort>${jetty.stopPort}</stopPort>
+                        <stopKey>${jetty.stopKey}</stopKey>
+                        <connectors>
+                            <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                                <port>${jetty.port}</port>
+                                <host>${jetty.host}</host>
+                                <maxIdleTime>${jetty.maxIdleTime}</maxIdleTime>
+                            </connector>
+                        </connectors>
+                        <webApp>
+                            <contextPath>${jetty.contextPath}</contextPath>
+                        </webApp>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -134,5 +165,4 @@
         </dependency>
 
     </dependencies>
-
 </project>

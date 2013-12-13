@@ -22,23 +22,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="profiling" />
         <module name="spring-amqp" />
         <module name="spring-batch" />
         <module name="spring-ear" />
         <module name="spring-jpa" />
         <module name="spring-mvc" />
+        <module name="spring-perf4j" />
         <module name="spring-solr" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-spring-examples" target="1.6" />
+      <module name="profiling" target="1.6" />
       <module name="solr" target="1.6" />
       <module name="spring-amqp" target="1.6" />
       <module name="spring-batch" target="1.6" />
       <module name="spring-ear" target="1.6" />
       <module name="spring-jpa" target="1.6" />
       <module name="spring-mvc" target="1.6" />
+      <module name="spring-perf4j" target="1.6" />
       <module name="spring-solr" target="1.6" />
+      <module name="spring-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

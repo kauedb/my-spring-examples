@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-ear/spring-ear.iml" filepath="$PROJECT_DIR$/spring-ear/spring-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-jpa/spring-jpa.iml" filepath="$PROJECT_DIR$/spring-jpa/spring-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-perf4j/spring-perf4j.iml" filepath="$PROJECT_DIR$/spring-perf4j/spring-perf4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-solr/spring-solr.iml" filepath="$PROJECT_DIR$/spring-solr/spring-solr.iml" />
     </modules>
   </component>

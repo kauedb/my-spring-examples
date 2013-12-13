@@ -8,6 +8,7 @@
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/spring-ear" />
     <file type="web" url="file://$PROJECT_DIR$/solr" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-perf4j" />
   </component>
   <component name="IdProvider" IDEtalkID="2E3886D04918152C2536D8420E95F62C" />
   <component name="MavenCompilerTasksManager">
@@ -36,7 +37,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/profiling/pom.xml" />
         <option value="$PROJECT_DIR$/solr/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web/pom.xml" />
       </set>
     </option>
   </component>
